@@ -1,0 +1,25 @@
+{
+  "name": "countdowntimer",
+  "version": "1.0.0",
+  "description": "Countdown Timer built with Node, Express, HTML and hosted on Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redhendery/countdownTimer.git"
+  },
+  "keywords": [
+    "Countdown"
+  ],
+  "author": "Red Hendery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redhendery/countdownTimer/issues"
+  },
+  "homepage": "https://github.com/redhendery/countdownTimer#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
