@@ -4,6 +4,7 @@
   "description": "Countdown Timer built with Node, Express, HTML and hosted on Heroku",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "repository": {

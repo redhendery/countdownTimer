@@ -1,2 +1,2 @@
 # countdownTimer
-JS Countdown Timer built from NodeJS, ExpressJS, Handlebars and hosted on Heroku.
+Countdown Timer built with Node, Express, HTML and hosted on Heroku.
