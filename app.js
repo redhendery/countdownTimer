@@ -1,15 +1,15 @@
-var express = require('express')
-var path = require('path')
+var express = require('express');
+var path = require('path');
 
 var app = express()
 
-app.set('view engine', 'hbs');
-app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'hbs')
+app.set('views', path.join(__dirname, 'views'))
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
- res.render('index')
+  res.render('index', { title: 'Countdown Timer' })
 })
 
 app.listen(3000, () => {
