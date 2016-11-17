@@ -1,10 +1,10 @@
 {
   "name": "countdowntimer",
   "version": "1.0.0",
-  "description": "Countdown Timer built with Node, Express, HTML and hosted on Heroku",
+  "description": "Countdown Timer built with Node, Express, Handlebars and hosted on Heroku",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node app.js",
     "test": "test"
   },
   "repository": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/redhendery/countdownTimer#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "hbs": "^4.0.1"
   }
 }
