@@ -12,13 +12,13 @@ body {
   display: flex;
   flex-direction: column;
 	text-align: center;
-	background: #00ECB9;
+	background: #3cb1b6;
   font-family: sans-serif;
   font-weight: 100;
 }
 
 h1 {
-  color: #396;
+  color: #0c2324;
   font-weight: 100;
   font-size: 40px;
 	margin: 0 0 20px 0;
@@ -26,10 +26,12 @@ h1 {
 
 p {
   margin: 0 0 20px 0;
+  padding-top: 40px;
+  color: #0c2324;
 }
 
 footer {
-  background: #42A5F5;
+  background: #FFB732;
   color: white;
 }
 
@@ -45,14 +47,14 @@ footer {
 #clockdiv > div {
 	padding: 10px;
 	border-radius: 3px;
-	background: #00BF96;
+	background: #369fa3;
 	display: inline-block;
 }
 
 #clockdiv div > span {
 	padding: 15px;
 	border-radius: 3px;
-	background: #00816A;
+	background: #246a6d;
 	display: inline-block;
 }
 
@@ -65,6 +67,7 @@ footer {
   flex: 1;
   padding: 20px;
 }
+
 .footer {
   padding: 20px;
 }
