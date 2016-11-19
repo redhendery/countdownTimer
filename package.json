@@ -12,7 +12,11 @@
     "url": "git+https://github.com/redhendery/countdownTimer.git"
   },
   "keywords": [
-    "Countdown"
+    "Countdown",
+    "Node",
+    "Express",
+    "Handlebars",
+    "Heroku"
   ],
   "author": "Red Hendery",
   "license": "ISC",
