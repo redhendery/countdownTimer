@@ -12,8 +12,8 @@ app.get('/', (req, res) => {
   res.render('index', { title: 'Countdown Timer' })
 })
 
-app.listen(3000, () => {
-  console.log('App is hosted at http://localhost:3000')
-})
+// app.listen(3000, () => {
+//   console.log('App is hosted at http://localhost:3000')
+// })
 
 module.exports = app;
